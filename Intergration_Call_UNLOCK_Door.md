@@ -1,6 +1,6 @@
 **Call API kích hoạt nút mở cửa**
 
-*Bước 1: Sử dụng thông tin đăng nhập để lấy được Token
+*Bước 1: Sử dụng thông tin đăng nhập để lấy được Token*
 
 ##Request:
 ```
@@ -34,7 +34,7 @@ Access-Control-Allow-Origin:*
 { "success": 1, "token": "DF4CBA19C7AE4f5bA53FCE740A834770", "version": "6.0.2.0" }
 ```
 
-*Bước 2: Sử dụng Token để tiếp tục lấy thông tin client_guid
+*Bước 2: Sử dụng Token để tiếp tục lấy thông tin client_guid*
 
 ##Request:
 ```
@@ -71,7 +71,7 @@ Content-Length: 118
 {"client_guid":"8B81519A-DF4C-4b95-94A9-9707048877BF","host_guid":"A14E2EF2-D22C-4172-8753-8E7A389B8083","success":1}
 ```
 
-*Bước 3: Sử dụng kết hợp giữa thông tin Token và client_guid để tiến hành gọi API kích hoạt mở cửa:
+*Bước 3: Sử dụng kết hợp giữa thông tin Token và client_guid để tiến hành gọi API kích hoạt mở cửa:*
 
 ##Request:
 ```
