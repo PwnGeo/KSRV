@@ -24,7 +24,7 @@ payload = {
     "username": "admin",
     "password": "admin",
     "apibody": (
-        '{"command": "register_user","UUID": "ee62cc39-3c2c-4aaf-8edb-28f1e35683b1",'
+        '{"command": "register_user","UUID": "",'
         '"info": {"name": "Lê Minh Thanh","adv_group": "0"},'
         '"custom_info": {"id": "060097009192","id2": "Nam","email": "",'
         '"wiegand_code": "8P8A//8gCRoAAAAAAtZgSS098g==","wiegand_bits": 26,'
