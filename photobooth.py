@@ -26,7 +26,7 @@ def detect_faces(image):
         results = face_detection.process(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
         return results
 
-st.title("Ứng dụng Camera Nhận Diện Gương Mặt")
+st.title("Đăng Ký Khuôn Mặt Ra Vào Cửa C06")
 
 # Start webcam
 cap = cv2.VideoCapture(0)
@@ -39,7 +39,7 @@ if 'capture_disabled' not in st.session_state:
     st.session_state.capture_disabled = False
 
 if st.session_state.capture_disabled:
-    st.write("Nhấn nút Xác nhận bên dưới để tiến hành chụp ảnh.")
+    st.write("Nhấn nút Xác nhận bên dưới để tiến hành chụp lại ảnh khác.")
     if st.button("Xác nhận"):
         # Refresh the current page
         # JavaScript to refresh the page after clicking "OK"
